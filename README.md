@@ -37,7 +37,7 @@ I'm currently a **Data Engineer at ELFO Srl**, and before that spent 4+ years as
 ---
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username='dianim-code'&layout=compact&theme=default&hide_border=true" alt="Top Languages" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=dianim-code&layout=compact&theme=default&hide_border=true" alt="Top Languages" />
 </p>
 
 <p align="center">
