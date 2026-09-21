@@ -37,6 +37,6 @@ I'm currently a **Data Engineer at ELFO Srl**, and before that spent 4+ years as
 ---
 
 <p align="center">
-  📫 Reach me: <a href="mailto:dianimatteo@gmail.com">dianimatteo@gmail.com</a> ·
+  📫 Reach me: <a href="mailto:dianimatteo@proton.me">dianimatteo@gmail.com</a> ·
   <a href="https://www.linkedin.com/in/matteo-diani">LinkedIn</a>
 </p>
