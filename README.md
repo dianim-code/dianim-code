@@ -16,6 +16,24 @@
 
 I came to data engineering through a biomedical engineering background. My first data work was analyzing electrograms and ECG signals during a clinical internship, and that's where I realized I liked the "finding structure in messy systems" part more than the "systems" part. That instinct carried straight over: today I build pipelines and BI platforms instead of signal-processing models, but it's the same job, turning noisy inputs into something trustworthy.
 
+### Featured projects
+
+One public healthcare dataset, end to end: hospital beds from the Italian Ministry of Health and resident population from ISTAT, from raw files to a lakehouse, a semantic model and reusable charts.
+
+**Open data → Databricks lakehouse → Power BI semantic model + Deneb chart gallery**
+
+| Project | What it shows | Stack |
+|---|---|---|
+| 🏗️ [healthcare-lakehouse](https://github.com/dianim-code/healthcare-lakehouse) | Bronze/silver/gold pipeline deployed with Asset Bundles; the gold star schema is an explicit, versioned data contract, and the tests check it value by value against an independent pandas implementation | Databricks · Lakeflow · PySpark · Unity Catalog · GitHub Actions |
+| 📐 [healthcare-semantic-model](https://github.com/dianim-code/healthcare-semantic-model) | Star schema as PBIP/TMDL with measures that treat beds and population as stocks, row-level security, Best Practice Analyzer rules in CI and a four-page report; reads the gold tables from the sample CSVs or live from a Databricks SQL warehouse | Power BI · TMDL · PBIR · DAX · Tabular Editor |
+| 📈 [deneb-gallery](https://github.com/dianim-code/deneb-gallery) | Six reusable Deneb templates for Power BI, rendered live on the same data · [**open the gallery**](https://dianim-code.github.io/deneb-gallery/) | Deneb · Vega-Lite · GitHub Pages |
+
+<p align="center">
+  <a href="https://github.com/dianim-code/healthcare-semantic-model">
+    <img src="https://raw.githubusercontent.com/dianim-code/healthcare-semantic-model/main/docs/images/report-overview.png" width="720" alt="Overview page of the hospital beds Power BI report" />
+  </a>
+</p>
+
 ### Now @ ELFO Srl: Data Engineer & BI Team Coordinator (2026 – present)
 
 - 🏥 Building a **Databricks + Fabric** data platform for a public healthcare organization, ingesting multiple Oracle clinical and administrative sources into a governed lakehouse
